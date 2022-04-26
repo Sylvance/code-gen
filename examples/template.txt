@@ -1,0 +1,21 @@
+# frozen_string_literal: true
+
+module [MODULE-NAME-1]
+  module [MODULE-NAME-2]
+    class [CLASS-NAME-1]
+      attr_accessor [ACCESSOR-1]
+
+      def self.call([ACCESSOR-2])
+        new([ACCESSOR-3]).call
+      end
+
+      def initialize([ACCESSOR-3])
+        [WRITER-1]
+      end
+
+      def call
+        [BLOCK-1].call([ACCESSOR-2])
+      end
+    end
+  end
+end
