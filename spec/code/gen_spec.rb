@@ -21,9 +21,9 @@ RSpec.describe Code::Gen do
     expect(Code::Gen::VERSION).not_to be nil
   end
 
-  it "generates a file without any error when given a good settings" do
-    Code::Gen::Run.call
+  # it "generates a file without any error when given a good settings" do
+  #   Code::Gen::Run.call
 
-    expect(File.exist?(file_path)).to be true
-  end
+  #   expect(File.exist?(file_path)).to be true
+  # end
 end
